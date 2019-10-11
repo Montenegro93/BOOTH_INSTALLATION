@@ -1,0 +1,17 @@
+{
+    "Version": 1,
+    "AllowedPlugins": {
+        "8e88cbb9": {
+            "ComputerName": "DESKTOP-6QTP038",
+            "Plugins": {
+                "C:/Users/Etienne/Documents/Derivative/Plugins/CV3FaceDetectTOP.windows/CV3FaceDetectTOP.dll": {
+                    "Hashes": [
+                        "IUEL/II6f1cYj385/mbm0uDkVHyHkydp0/d8YSGpwfTcVshogts2Unss7yOMb6zdpxoXDhjKko87FwAiWUYjJlsbKpxmcv6WaRC9tC+vniSo068tvw2JWJLgh7uEwu3N"
+                    ],
+                    "AuthorName": "Da Xu",
+                    "AuthorEmail": "da.xu@wearesohappy.net"
+                }
+            }
+        }
+    }
+}
