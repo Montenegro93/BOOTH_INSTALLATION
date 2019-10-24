@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1452.0, 929.0 ],
+		"rect" : [ -773.0, -824.0, 1452.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -123,7 +123,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1312.0, 648.5, 149.0, 36.0 ],
-					"presentation_linecount" : 2,
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 854, 172, 1208, 300 ],
 						"parameter_enable" : 0,
@@ -145,7 +144,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1312.0, 648.5, 120.0, 22.0 ],
 					"text" : "autopattr @greedy 1",
-					"varname" : "u822000642"
+					"varname" : "u649000808"
 				}
 
 			}
@@ -271,6 +270,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_gl_texture", "jit_gl_texture" ],
 					"patching_rect" : [ 673.0, 136.0, 301.0, 86.0 ],
+					"varname" : "vs_wfg_2[2]",
 					"viewvisibility" : 1
 				}
 
@@ -282,14 +282,14 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-18",
+					"id" : "obj-5",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "vs_syphon_server.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 673.0, 544.0, 131.0, 16.0 ],
+					"patching_rect" : [ 668.5, 560.0, 131.0, 16.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -304,7 +304,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
+					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -363,68 +363,70 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-14::obj-139" : [ "wfg2_sync_lock", "sync_pos", 0 ],
-			"obj-2::obj-19" : [ "dim_x", "dim_x", 0 ],
-			"obj-1::obj-16" : [ "live.menu[2]", "live.menu", 0 ],
-			"obj-3::obj-25" : [ "fm", "fm", 0 ],
-			"obj-14::obj-6" : [ "wfg2_fm_range", "scale_freq_fm", 0 ],
-			"obj-3::obj-12" : [ "toggle[6]", "toggle[1]", 0 ],
-			"obj-14::obj-23" : [ "wfg2_pwm", "pwm", 0 ],
+			"obj-14::obj-6" : [ "wfg2_fm_range[1]", "scale_freq_fm", 0 ],
+			"obj-3::obj-6" : [ "scale_freq_fm", "scale_freq_fm", 0 ],
 			"obj-1::obj-14" : [ "live.menu[1]", "live.menu", 0 ],
 			"obj-3::obj-130" : [ "live.dial[5]", "time", 0 ],
-			"obj-3::obj-10" : [ "wfg2_pm", "pm", 0 ],
-			"obj-14::obj-130" : [ "wfg2_time", "time", 0 ],
-			"obj-2::obj-23" : [ "dim_y", "dim_y", 0 ],
-			"obj-1::obj-56" : [ "live.menu[6]", "live.menu", 0 ],
-			"obj-3::obj-13" : [ "scale_freq", "scale_freq", 0 ],
-			"obj-14::obj-10" : [ "wfg2_pm[1]", "pm", 0 ],
+			"obj-12::obj-6" : [ "wfg2_fm_range", "scale_freq_fm", 0 ],
+			"obj-12::obj-23" : [ "wfg2_pwm", "pwm", 0 ],
+			"obj-14::obj-130" : [ "wfg2_time[1]", "time", 0 ],
+			"obj-14::obj-12" : [ "wfg2_sync_dir[1]", "sync_invert", 0 ],
 			"obj-13::obj-60" : [ "clrizer_color", "color", 0 ],
-			"obj-1::obj-53" : [ "live.menu[5]", "live.menu", 0 ],
-			"obj-3::obj-24" : [ "pw", "pw", 0 ],
-			"obj-14::obj-26" : [ "wfg2_freq", "freq", 0 ],
 			"obj-3::obj-139" : [ "live.tab[3]", "live.tab", 0 ],
-			"obj-1::obj-52" : [ "live.menu[4]", "live.menu", 0 ],
-			"obj-14::obj-12" : [ "wfg2_sync_dir", "sync_invert", 0 ],
-			"obj-1::obj-2" : [ "live.menu", "live.menu", 0 ],
-			"obj-14::obj-25" : [ "wfg2_fm", "fm", 0 ],
-			"obj-3::obj-26" : [ "freq", "freq", 0 ],
-			"obj-14::obj-24" : [ "wfg2_pw", "pw", 0 ],
-			"obj-14::obj-27" : [ "wfg2_wf", "waveform", 0 ],
-			"obj-2::obj-18" : [ "on_off", "on_off", 0 ],
-			"obj-3::obj-6" : [ "scale_freq_fm", "scale_freq_fm", 0 ],
-			"obj-3::obj-27" : [ "waveform", "waveform", 0 ],
+			"obj-12::obj-10" : [ "wfg2_pm", "pm", 0 ],
 			"obj-3::obj-23" : [ "pwm", "pwm", 0 ],
+			"obj-2::obj-23" : [ "dim_y", "dim_y", 0 ],
+			"obj-14::obj-139" : [ "wfg2_sync_lock[1]", "sync_pos", 0 ],
+			"obj-12::obj-130" : [ "wfg2_time", "time", 0 ],
+			"obj-14::obj-23" : [ "wfg2_pwm[1]", "pwm", 0 ],
+			"obj-3::obj-27" : [ "waveform", "waveform", 0 ],
+			"obj-3::obj-26" : [ "freq", "freq", 0 ],
+			"obj-12::obj-26" : [ "wfg2_freq", "freq", 0 ],
+			"obj-12::obj-12" : [ "wfg2_sync_dir", "sync_invert", 0 ],
+			"obj-14::obj-27" : [ "wfg2_wf[1]", "waveform", 0 ],
+			"obj-3::obj-25" : [ "fm", "fm", 0 ],
+			"obj-14::obj-13" : [ "wfg2_freq_range[1]", "scale_freq", 0 ],
 			"obj-13::obj-31" : [ "clrizer_hue", "hue", 0 ],
+			"obj-3::obj-13" : [ "scale_freq", "scale_freq", 0 ],
+			"obj-3::obj-10" : [ "wfg2_pm[1]", "pm", 0 ],
 			"obj-1::obj-36" : [ "live.menu[3]", "live.menu", 0 ],
-			"obj-14::obj-13" : [ "wfg2_freq_range", "scale_freq", 0 ],
+			"obj-12::obj-25" : [ "wfg2_fm", "fm", 0 ],
+			"obj-12::obj-24" : [ "wfg2_pw", "pw", 0 ],
+			"obj-2::obj-18" : [ "on_off", "on_off", 0 ],
+			"obj-14::obj-25" : [ "wfg2_fm[1]", "fm", 0 ],
+			"obj-12::obj-27" : [ "wfg2_wf", "waveform", 0 ],
+			"obj-1::obj-16" : [ "live.menu[2]", "live.menu", 0 ],
+			"obj-14::obj-24" : [ "wfg2_pw[1]", "pw", 0 ],
+			"obj-1::obj-56" : [ "live.menu[6]", "live.menu", 0 ],
+			"obj-1::obj-2" : [ "live.menu", "live.menu", 0 ],
+			"obj-1::obj-53" : [ "live.menu[5]", "live.menu", 0 ],
+			"obj-3::obj-12" : [ "toggle[6]", "toggle[1]", 0 ],
+			"obj-12::obj-13" : [ "wfg2_freq_range", "scale_freq", 0 ],
+			"obj-2::obj-19" : [ "dim_x", "dim_x", 0 ],
+			"obj-14::obj-10" : [ "wfg2_pm[2]", "pm", 0 ],
+			"obj-12::obj-139" : [ "wfg2_sync_lock", "sync_pos", 0 ],
+			"obj-3::obj-24" : [ "pw", "pw", 0 ],
+			"obj-1::obj-52" : [ "live.menu[4]", "live.menu", 0 ],
+			"obj-14::obj-26" : [ "wfg2_freq[1]", "freq", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-3::obj-25" : 				{
-					"parameter_longname" : "fm",
-					"parameter_range" : [ -1.0, 1.0 ]
+				"obj-14::obj-6" : 				{
+					"parameter_longname" : "wfg2_fm_range[1]"
+				}
+,
+				"obj-3::obj-6" : 				{
+					"parameter_longname" : "scale_freq_fm"
 				}
 ,
 				"obj-3::obj-130" : 				{
 					"parameter_longname" : "live.dial[5]"
 				}
 ,
-				"obj-3::obj-13" : 				{
-					"parameter_longname" : "scale_freq"
-				}
-,
-				"obj-14::obj-10" : 				{
-					"parameter_longname" : "wfg2_pm[1]"
-				}
-,
-				"obj-3::obj-24" : 				{
-					"parameter_longname" : "pw"
-				}
-,
-				"obj-14::obj-26" : 				{
-					"parameter_range" : [ 0.0, 1000.0 ]
+				"obj-14::obj-130" : 				{
+					"parameter_longname" : "wfg2_time[1]"
 				}
 ,
 				"obj-3::obj-139" : 				{
@@ -432,8 +434,20 @@
 					"parameter_shortname" : "live.tab"
 				}
 ,
-				"obj-14::obj-25" : 				{
-					"parameter_range" : [ -1.0, 1.0 ]
+				"obj-3::obj-23" : 				{
+					"parameter_longname" : "pwm"
+				}
+,
+				"obj-14::obj-139" : 				{
+					"parameter_longname" : "wfg2_sync_lock[1]"
+				}
+,
+				"obj-14::obj-23" : 				{
+					"parameter_longname" : "wfg2_pwm[1]"
+				}
+,
+				"obj-3::obj-27" : 				{
+					"parameter_longname" : "waveform"
 				}
 ,
 				"obj-3::obj-26" : 				{
@@ -441,16 +455,55 @@
 					"parameter_range" : [ 0.0, 1000.0 ]
 				}
 ,
-				"obj-3::obj-6" : 				{
-					"parameter_longname" : "scale_freq_fm"
+				"obj-12::obj-26" : 				{
+					"parameter_range" : [ 0.0, 1000.0 ]
 				}
 ,
-				"obj-3::obj-27" : 				{
-					"parameter_longname" : "waveform"
+				"obj-14::obj-27" : 				{
+					"parameter_longname" : "wfg2_wf[1]"
 				}
 ,
-				"obj-3::obj-23" : 				{
-					"parameter_longname" : "pwm"
+				"obj-3::obj-25" : 				{
+					"parameter_longname" : "fm",
+					"parameter_range" : [ -1.0, 1.0 ]
+				}
+,
+				"obj-14::obj-13" : 				{
+					"parameter_longname" : "wfg2_freq_range[1]"
+				}
+,
+				"obj-3::obj-13" : 				{
+					"parameter_longname" : "scale_freq"
+				}
+,
+				"obj-3::obj-10" : 				{
+					"parameter_longname" : "wfg2_pm[1]"
+				}
+,
+				"obj-12::obj-25" : 				{
+					"parameter_range" : [ -1.0, 1.0 ]
+				}
+,
+				"obj-14::obj-25" : 				{
+					"parameter_range" : [ -1.0, 1.0 ],
+					"parameter_longname" : "wfg2_fm[1]"
+				}
+,
+				"obj-14::obj-24" : 				{
+					"parameter_longname" : "wfg2_pw[1]"
+				}
+,
+				"obj-14::obj-10" : 				{
+					"parameter_longname" : "wfg2_pm[2]"
+				}
+,
+				"obj-3::obj-24" : 				{
+					"parameter_longname" : "pw"
+				}
+,
+				"obj-14::obj-26" : 				{
+					"parameter_range" : [ 0.0, 1000.0 ],
+					"parameter_longname" : "wfg2_freq[1]"
 				}
 
 			}
@@ -559,9 +612,8 @@
 		"styles" : [ 			{
 				"name" : "minimal",
 				"default" : 				{
-					"color" : [ 0.345098, 0.513725, 0.572549, 0.78 ],
-					"bgcolor" : [ 0.878431, 0.878431, 0.858824, 1.0 ],
 					"selectioncolor" : [ 0.862745, 0.741176, 0.137255, 0.7 ],
+					"color" : [ 0.345098, 0.513725, 0.572549, 0.78 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"patchlinecolor" : [ 0.65, 0.65, 0.65, 0.9 ],
 					"bgfillcolor" : 					{
@@ -575,7 +627,8 @@
 					}
 ,
 					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-					"elementcolor" : [ 0.32549, 0.345098, 0.372549, 0.44 ]
+					"elementcolor" : [ 0.32549, 0.345098, 0.372549, 0.44 ],
+					"bgcolor" : [ 0.878431, 0.878431, 0.858824, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
