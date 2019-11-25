@@ -1,4 +1,5 @@
 import cv2
+from imutils.video import VideoStream
 import numpy as np
 import dlib
 from PIL import ImageGrab
@@ -13,7 +14,7 @@ client = SimpleUDPClient(ip, port)  # Create client
 
 face_id = 0
 
-#cap = cv2.VideoCapture(1)
+cap = VideoStream(src=0).start()
 
 #scale_percent = 10
 #width = int(cap.shape[1] * scale_percent / 100)
@@ -29,10 +30,10 @@ detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
 
 while True:
-    #_, frame = cap.read()
+    _, frame = cap.read()
 
-    img = ImageGrab.grab()
-    img_np = np.array(img)
+    #img = ImageGrab.grab()
+    img_np = np.array(frame)
 
     frame = cv2.cvtColor(img_np, cv2.COLOR_BGR2GRAY)
 
@@ -94,8 +95,8 @@ while True:
         
         
     face_id = 0
-   # cv2.namedWindow("Frame",CV_WINDOW_NORMAL)
-    #cv2.imshow("Frame", frame)
+    #cv2.namedWindow("Frame",CV_WINDOW_NORMAL)
+    cv2.imshow("Frame", frame)
 
     key = cv2.waitKey(1)
     if key == 27:
