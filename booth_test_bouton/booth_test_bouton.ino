@@ -1,13 +1,14 @@
+#include <Chrono.h>
 #include <Bounce2.h>
 
 #define BUTTON_PIN 8
 #define LED_PIN 9
 
 int ledState = LOW;
-
-
+int buttonState = 0;
+Chrono refreshRate;
 Bounce debouncer = Bounce(); // Instantiate a Bounce object
-
+int interval = 25;
 void setup() {
 
    Serial.begin(9600); 
@@ -23,14 +24,28 @@ void setup() {
 
 void loop() {
 
+  if (refreshRate.hasPassed(interval) ) { // elapsed(1000) returns 1 if 1000ms have passed.
+      refreshRate.restart();  // restart the Chrono 
 
-   debouncer.update(); // Update the Bounce instance
+
+
+     debouncer.update(); // Update the Bounce instance
    
-   if ( debouncer.fell() ) {  // Call code if button transitions from HIGH to LOW
-     ledState = !ledState; // Toggle LED state
-     digitalWrite(LED_PIN,ledState); // Apply new LED state
-        Serial.print("allo");
-        delay(100);
-        Serial.print("bye");
-   }
+     if ( debouncer.fell() ) {  // Call code if button transitions from HIGH to LOW
+      ledState = !ledState; // Toggle LED state
+      digitalWrite(LED_PIN,ledState); // Apply new LED state
+      buttonState = 1;
+     }
+    else
+     {
+       buttonState = 0;
+     }
+  String  message = "button " + String(buttonState);
+   Serial.print(message);
+   Serial.print("\n");
+
+
+    
+  }
+ 
 }
