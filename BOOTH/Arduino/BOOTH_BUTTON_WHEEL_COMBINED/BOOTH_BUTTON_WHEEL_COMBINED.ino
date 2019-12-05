@@ -108,7 +108,7 @@ void loop() {
       digitalWrite(LED_PIN,ledState); // Apply new LED state
       buttonState = 1;
      }
-    else
+    else if (debouncer.rose())
      {
        buttonState = 0;
      }
