@@ -1,0 +1,281 @@
+{
+	"pattrstorage" : 	{
+		"name" : "vsynth",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"vs_wfg_rad[1]::radwfg_fm" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_fm_range" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_freq" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_freq_60mult" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_freq_range" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_pw" : [ 50.0 ],
+					"vs_wfg_rad[1]::radwfg_pwm" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_shape" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_time" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_time_dir" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_wf" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_fm" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_fm_range" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_freq" : [ 500.944881889763735 ],
+					"vs_wfg_rad::radwfg_freq_60mult" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_freq_range" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_pw" : [ 50.0 ],
+					"vs_wfg_rad::radwfg_pwm" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_shape" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_time" : [ 3.0 ],
+					"vs_wfg_rad::radwfg_time_dir" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_wf" : [ 4.0 ],
+					"vs_render::dim_x" : [ 1080.0 ],
+					"vs_render::dim_y" : [ 1498.0 ],
+					"vs_render::on_off" : [ 1.0 ],
+					"vs_colorizer[1]::clrizer_color" : [ 1.0, 1.0, 1.0, 1.0, 0.002777777777778, 1.0, 1.0 ],
+					"vs_colorizer[1]::clrizer_hue" : [ 1.000000000000033 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"vs_wfg_rad[1]::radwfg_fm" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_fm_range" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_freq" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_freq_60mult" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_freq_range" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_pw" : [ 50.0 ],
+					"vs_wfg_rad[1]::radwfg_pwm" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_shape" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_time" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_time_dir" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_wf" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_fm" : [ -0.078740157480315 ],
+					"vs_wfg_rad::radwfg_fm_range" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_freq" : [ 595.43307086614152 ],
+					"vs_wfg_rad::radwfg_freq_60mult" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_freq_range" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_pw" : [ 50.0 ],
+					"vs_wfg_rad::radwfg_pwm" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_shape" : [ 1.0 ],
+					"vs_wfg_rad::radwfg_time" : [ 3.0 ],
+					"vs_wfg_rad::radwfg_time_dir" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_wf" : [ 4.0 ],
+					"vs_render::dim_x" : [ 1080.0 ],
+					"vs_render::dim_y" : [ 1498.0 ],
+					"vs_render::on_off" : [ 1.0 ],
+					"vs_colorizer[1]::clrizer_color" : [ 1.0, 1.0, 1.0, 1.0, 0.002777777777778, 1.0, 1.0 ],
+					"vs_colorizer[1]::clrizer_hue" : [ 1.000000000000033 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"vs_wfg_rad[1]::radwfg_fm" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_fm_range" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_freq" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_freq_60mult" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_freq_range" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_pw" : [ 50.0 ],
+					"vs_wfg_rad[1]::radwfg_pwm" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_shape" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_time" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_time_dir" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_wf" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_fm" : [ -0.078740157480315 ],
+					"vs_wfg_rad::radwfg_fm_range" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_freq" : [ 540.314960629921075 ],
+					"vs_wfg_rad::radwfg_freq_60mult" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_freq_range" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_pw" : [ 50.0 ],
+					"vs_wfg_rad::radwfg_pwm" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_shape" : [ 2.0 ],
+					"vs_wfg_rad::radwfg_time" : [ 4.0 ],
+					"vs_wfg_rad::radwfg_time_dir" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_wf" : [ 4.0 ],
+					"vs_render::dim_x" : [ 1080.0 ],
+					"vs_render::dim_y" : [ 1498.0 ],
+					"vs_render::on_off" : [ 1.0 ],
+					"vs_colorizer[1]::clrizer_color" : [ 1.0, 1.0, 1.0, 1.0, 0.002777777777778, 1.0, 1.0 ],
+					"vs_colorizer[1]::clrizer_hue" : [ 1.000000000000033 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"vs_wfg_rad[1]::radwfg_fm" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_fm_range" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_freq" : [ 445.826771653542778 ],
+					"vs_wfg_rad[1]::radwfg_freq_60mult" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_freq_range" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_pw" : [ 50.0 ],
+					"vs_wfg_rad[1]::radwfg_pwm" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_shape" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_time" : [ 4.0 ],
+					"vs_wfg_rad[1]::radwfg_time_dir" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_wf" : [ 3.0 ],
+					"vs_wfg_rad::radwfg_fm" : [ -0.078740157480315 ],
+					"vs_wfg_rad::radwfg_fm_range" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_freq" : [ 540.314960629921075 ],
+					"vs_wfg_rad::radwfg_freq_60mult" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_freq_range" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_pw" : [ 50.0 ],
+					"vs_wfg_rad::radwfg_pwm" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_shape" : [ 2.0 ],
+					"vs_wfg_rad::radwfg_time" : [ 4.0 ],
+					"vs_wfg_rad::radwfg_time_dir" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_wf" : [ 4.0 ],
+					"vs_render::dim_x" : [ 1080.0 ],
+					"vs_render::dim_y" : [ 1498.0 ],
+					"vs_render::on_off" : [ 1.0 ],
+					"vs_colorizer[1]::clrizer_color" : [ 1.0, 1.0, 1.0, 1.0, 0.002777777777778, 1.0, 1.0 ],
+					"vs_colorizer[1]::clrizer_hue" : [ 1.000000000000033 ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"vs_wfg_rad[1]::radwfg_fm" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_fm_range" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_freq" : [ 792.283464566927705 ],
+					"vs_wfg_rad[1]::radwfg_freq_60mult" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_freq_range" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_pw" : [ 50.0 ],
+					"vs_wfg_rad[1]::radwfg_pwm" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_shape" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_time" : [ 6.0 ],
+					"vs_wfg_rad[1]::radwfg_time_dir" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_wf" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_fm" : [ -0.078740157480315 ],
+					"vs_wfg_rad::radwfg_fm_range" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_freq" : [ 540.314960629921075 ],
+					"vs_wfg_rad::radwfg_freq_60mult" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_freq_range" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_pw" : [ 50.0 ],
+					"vs_wfg_rad::radwfg_pwm" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_shape" : [ 1.0 ],
+					"vs_wfg_rad::radwfg_time" : [ 4.0 ],
+					"vs_wfg_rad::radwfg_time_dir" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_wf" : [ 4.0 ],
+					"vs_render::dim_x" : [ 1080.0 ],
+					"vs_render::dim_y" : [ 1498.0 ],
+					"vs_render::on_off" : [ 1.0 ],
+					"vs_colorizer[1]::clrizer_color" : [ 1.0, 1.0, 1.0, 1.0, 0.002777777777778, 1.0, 1.0 ],
+					"vs_colorizer[1]::clrizer_hue" : [ 1.000000000000033 ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"vs_wfg_rad[1]::radwfg_fm" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_fm_range" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_freq" : [ 157.480314960629926 ],
+					"vs_wfg_rad[1]::radwfg_freq_60mult" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_freq_range" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_pw" : [ 50.0 ],
+					"vs_wfg_rad[1]::radwfg_pwm" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_shape" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_time" : [ 7.0 ],
+					"vs_wfg_rad[1]::radwfg_time_dir" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_wf" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_fm" : [ -0.078740157480315 ],
+					"vs_wfg_rad::radwfg_fm_range" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_freq" : [ 540.314960629921075 ],
+					"vs_wfg_rad::radwfg_freq_60mult" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_freq_range" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_pw" : [ 50.0 ],
+					"vs_wfg_rad::radwfg_pwm" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_shape" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_time" : [ 4.0 ],
+					"vs_wfg_rad::radwfg_time_dir" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_wf" : [ 4.0 ],
+					"vs_render::dim_x" : [ 1080.0 ],
+					"vs_render::dim_y" : [ 1498.0 ],
+					"vs_render::on_off" : [ 1.0 ],
+					"vs_colorizer[1]::clrizer_color" : [ 1.0, 1.0, 1.0, 1.0, 0.002777777777778, 1.0, 1.0 ],
+					"vs_colorizer[1]::clrizer_hue" : [ 1.000000000000033 ]
+				}
+
+			}
+,
+			"7" : 			{
+				"id" : 7,
+				"data" : 				{
+					"vs_wfg_rad[1]::radwfg_fm" : [ -1.0 ],
+					"vs_wfg_rad[1]::radwfg_fm_range" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_freq" : [ 779.527559055118104 ],
+					"vs_wfg_rad[1]::radwfg_freq_60mult" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_freq_range" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_pw" : [ 50.0 ],
+					"vs_wfg_rad[1]::radwfg_pwm" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_shape" : [ 1.0 ],
+					"vs_wfg_rad[1]::radwfg_time" : [ 5.0 ],
+					"vs_wfg_rad[1]::radwfg_time_dir" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_wf" : [ 3.0 ],
+					"vs_wfg_rad::radwfg_fm" : [ 0.377952755905512 ],
+					"vs_wfg_rad::radwfg_fm_range" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_freq" : [ 740.157480314960367 ],
+					"vs_wfg_rad::radwfg_freq_60mult" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_freq_range" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_pw" : [ 50.0 ],
+					"vs_wfg_rad::radwfg_pwm" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_shape" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_time" : [ 6.0 ],
+					"vs_wfg_rad::radwfg_time_dir" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_wf" : [ 4.0 ],
+					"vs_render::dim_x" : [ 1080.0 ],
+					"vs_render::dim_y" : [ 1498.0 ],
+					"vs_render::on_off" : [ 1.0 ],
+					"vs_colorizer[1]::clrizer_color" : [ 1.0, 1.0, 1.0, 1.0, 0.002777777777778, 1.0, 1.0 ],
+					"vs_colorizer[1]::clrizer_hue" : [ 1.000000000000033 ]
+				}
+
+			}
+,
+			"8" : 			{
+				"id" : 8,
+				"data" : 				{
+					"vs_wfg_rad[1]::radwfg_fm" : [ -0.456692913385827 ],
+					"vs_wfg_rad[1]::radwfg_fm_range" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_freq" : [ 240.0 ],
+					"vs_wfg_rad[1]::radwfg_freq_60mult" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_freq_range" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_pw" : [ 61.811023622047209 ],
+					"vs_wfg_rad[1]::radwfg_pwm" : [ 0.102362204724409 ],
+					"vs_wfg_rad[1]::radwfg_shape" : [ 2.0 ],
+					"vs_wfg_rad[1]::radwfg_time" : [ 4.0 ],
+					"vs_wfg_rad[1]::radwfg_time_dir" : [ 0.0 ],
+					"vs_wfg_rad[1]::radwfg_wf" : [ 1.0 ],
+					"vs_wfg_rad::radwfg_fm" : [ 1.0 ],
+					"vs_wfg_rad::radwfg_fm_range" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_freq" : [ 660.0 ],
+					"vs_wfg_rad::radwfg_freq_60mult" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_freq_range" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_pw" : [ 51.181102362204676 ],
+					"vs_wfg_rad::radwfg_pwm" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_shape" : [ 1.0 ],
+					"vs_wfg_rad::radwfg_time" : [ 3.0 ],
+					"vs_wfg_rad::radwfg_time_dir" : [ 0.0 ],
+					"vs_wfg_rad::radwfg_wf" : [ 4.0 ],
+					"vs_render::dim_x" : [ 1080.0 ],
+					"vs_render::dim_y" : [ 1498.0 ],
+					"vs_render::on_off" : [ 1.0 ],
+					"vs_colorizer[1]::clrizer_color" : [ 1.0, 1.0, 1.0, 1.0, 0.002777777777778, 1.0, 1.0 ],
+					"vs_colorizer[1]::clrizer_hue" : [ 1.000000000000033 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
